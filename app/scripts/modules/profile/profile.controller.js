@@ -15,6 +15,7 @@
     }
     _this.currentcontactDetail = null;
     _this.searchParam = null;
+    /**  Functions to set contanct details*/
     _this.init = function () {
       _this.contactDetailList = registrationFactory.getcontactObj();
       if (!_this.contactDetailList) {
@@ -32,6 +33,7 @@
       getCurrentcontactDetail();
       console.log(_this.contactDetailList, $location.search());
     };
+    /**  Functions to get contanct details*/
     function getCurrentcontactDetail() {
       angular.forEach(_this.contactDetailList, function (data, key) {
         if (key == _this.searchParam.param) {

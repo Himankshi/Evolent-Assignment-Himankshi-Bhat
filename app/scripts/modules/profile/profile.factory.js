@@ -6,7 +6,7 @@
     return {
       onHome: onHome
     };
-
+    /**  Functions to redirect to home screen*/
     function onHome() {
       $location.path('/register');
     }

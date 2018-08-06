@@ -3,9 +3,11 @@
 
   function registrationFactoryFn() {
     var contactObject;
+    /**  Function sets object */
     function setcontactObj(contactList) {
         contactObject = contactList;
     }
+    /**  Function returns object */
     function getcontactObj() {
         return contactObject;
     }

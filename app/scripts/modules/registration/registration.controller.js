@@ -15,6 +15,7 @@
     } else {
         _this.contactList = [];
     }
+    /**  Function sets object */
     registrationFactory.setcontactObj(_this.contactList);
     _this.buttonTxt = "Submit";
     _this.currentIndex = null;
@@ -40,13 +41,16 @@
             _this.alertMsg = "Please enter all details correctly";
         }
     };
+    /**  Function to close alert */
     _this.closeAlert = function(){
         _this.openAlert = false;
     }
+    /**  Function to set status */
     _this.selectStatus = function(status){
         _this.contact.status = status;
         this.isStatusOpen = false;
     }
+    /**  Function to delete contact */
     _this.deletecontact = function(index){
         angular.forEach(_this.contactList,function(data, key){
            if(key === index){
@@ -55,6 +59,7 @@
         });
         localStorage.setItem('contacts',JSON.stringify(_this.contactList));
     };
+    /**  Function to edit contact */
     _this.editcontact = function(index){
         angular.forEach(_this.contactList,function(data, key){
            if(key === index){
@@ -65,12 +70,15 @@
            }
         });
     };
+    /**  Functions for status toggle*/
     _this.toggleStatus = function(){
         this.isStatusOpen = !this.isStatusOpen;
     }
+    /**  Functions to contact details*/
     _this.contactDetail = function(index){
         $location.path('/profile').search({param: index}); 
     };
+    /**  Functions to validate details*/
     _this.validateName = function(event){
         return utilityFactory.validateName(event);
     };
