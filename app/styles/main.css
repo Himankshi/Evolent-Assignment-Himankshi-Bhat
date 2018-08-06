@@ -1,0 +1,74 @@
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+i{
+  cursor: pointer;
+}
+.ml{
+    margin-left: 14px;
+}
+.org_border {
+  border: 2px solid #f7941e!important;
+}
+.status-btn {
+  border: 1px solid #ccc;
+  height: 35px;
+  border-radius: 5px;
+}
+.show{
+  display: block;
+}
+.padding-horizontal-5{
+  padding: 0px 5px;
+}
+.alert,.no-data{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  position: relative;
+}
+.alert-close{
+  position: absolute;
+  right:5px;
+  cursor: pointer;
+}
+.submit-btn{
+  display: flex!important;
+  font-size: 14px!important;
+}
+.inactive{
+  background-color: #d3d3d3;
+}
+.contact-detail-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px!important;
+  border-bottom: 1px solid #d3d3d3;
+  height: 60px;
+}
+.profile-body{
+  border-bottom: 1px solid #d3d3d3;
+  padding:15px; 
+}
+.profile-body-item{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.p-15{
+  padding:15px; 
+}
+.p-20{
+  padding:20px; 
+}
+.gray-border{
+  border: 1px solid #d3d3d3;
+}

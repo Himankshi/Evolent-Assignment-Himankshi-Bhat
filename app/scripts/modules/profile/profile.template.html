@@ -1,0 +1,32 @@
+<div class="p-20">
+  <div>
+    <div>
+      <div>
+        <div class="gray-border">
+          <div>
+            <div class="lead contact-detail-heading"><span>{{'Contact Detail'}}</span></div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div class="profile-body">
+                  <div class="profile-body-item"><span class="text-muted">{{'FIRST NAME'}}:</span><span>{{profile.currentcontactDetail.fName}}</span></div>
+                  <div class="profile-body-item"><span class="text-muted">{{'LAST NAME'}}:</span><span>{{profile.currentcontactDetail.lName}}</span></div>
+                  <div class="profile-body-item"><span class="text-muted">{{'PHONE'}}:</span><span>{{profile.currentcontactDetail.phone}}</span></div>
+                  <div class="profile-body-item"><span class="text-muted">{{'EMAIL'}}:</span><span>{{profile.currentcontactDetail.email}}</span></div>
+                  <div class="profile-body-item"><span class="text-muted">{{'STATUS'}}:</span><span>{{profile.currentcontactDetail.status}}</span></div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="row p-15">
+            <div class="col-md-12">
+              <button class="btn btn-default pull-right" ng-click="profile.onBack()"><i class="glyphicon glyphicon-log-out"></i> {{'BACK'}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
