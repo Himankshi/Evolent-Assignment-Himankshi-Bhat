@@ -1,4 +1,4 @@
-# evolent assignment - contact mangement system
+# Evolent Assignment - contact mangement system
 
 This Project is developed using Angular1.x as a front end technology.
 
